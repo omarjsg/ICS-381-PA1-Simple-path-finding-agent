@@ -366,7 +366,7 @@ class Square:
         return self.color == Color.TURQUOISE
 
     def reset(self):
-        self.color = Color.WHITE
+        self.color = Color.GRAY
 
     def make_start(self):
         self.color = Color.RED
